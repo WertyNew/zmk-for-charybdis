@@ -2,11 +2,18 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#if __has_include("dt-bindings/zmk/pointing.h")
-#include <dt-bindings/zmk/pointing.h>
-#endif
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 600 // 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20  // 10
+/ {
+    behaviors {
+        tmv_coarse: tmv_coarse {
+            compatible = "zmk,behavior-trackball-move";
+            move-speed = <600>;
+        };
+        tsl: tsl {
+            compatible = "zmk,behavior-trackball-scroll";
+            scroll-speed = <20>;
+        };
+    };
+};
 &lt {
     tapping-term-ms = <200>;
     flavor = "balanced";
