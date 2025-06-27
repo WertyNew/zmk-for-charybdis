@@ -2,7 +2,9 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#if __has_include("dt-bindings/zmk/pointing.h")
 #include <dt-bindings/zmk/pointing.h>
+#endif
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 600 // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20  // 10
 &lt {
