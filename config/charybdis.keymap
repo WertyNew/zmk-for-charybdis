@@ -11,11 +11,11 @@
                 &kp Q
                 &kp W
                 &kp E
-                &pointing_move 10 0  // движение трекбола вправо
-                &pointing_move -10 0 // влево
-                &pointing_move 0 10  // вниз
-                &pointing_move 0 -10 // вверх
-                &pointing_button 1   // ЛКМ
+                &pointing_move 10 0  
+                &pointing_move -10 0 
+                &pointing_move 0 10  
+                &pointing_move 0 -10 
+                &pointing_button 1   
             >;
         };
     };
