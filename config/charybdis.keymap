@@ -4,11 +4,11 @@
 #include <dt-bindings/zmk/keys.h>
 / {
     behaviors {
-        tmv_coarse: tmv_coarse {
+    behavior_trackball_move_coarse: tmv_coarse { 
             compatible = "zmk,behavior-trackball-move";
             move-speed = <600>;
         };
-        tsl: tsl {
+        tmv_coarse2: some_other_node { 
             compatible = "zmk,behavior-trackball-scroll";
             scroll-speed = <20>;
         };
