@@ -27,10 +27,12 @@
         scroll-y = <(-1)>;
     };
 };
-&l3 {
-    tapping-term-ms = <200>;
-    flavor = "balanced";
-    quick-tap-ms = <150>;
+/ {
+    l3 {
+        tapping-term-ms = <200>;
+        flavor = "balanced";
+        quick-tap-ms = <150>;
+    };
 };
 
 / {
