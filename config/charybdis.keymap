@@ -4,18 +4,16 @@
 #include <dt-bindings/zmk/keys.h>
 / {
     behaviors {
-        behavior_trackball_move_coarse: tmv_coarse {
+    behavior_trackball_move_coarse: tmv_coarse { 
             compatible = "zmk,behavior-trackball-move";
             move-speed = <600>;
         };
-
-        tmv_coarse2: some_other_node {
+        tmv_coarse2: some_other_node { 
             compatible = "zmk,behavior-trackball-scroll";
             scroll-speed = <20>;
         };
     };
 };
-
 &lt {
     tapping-term-ms = <200>;
     flavor = "balanced";
