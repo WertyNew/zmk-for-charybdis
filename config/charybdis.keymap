@@ -24,7 +24,7 @@
     };
     mkp_scroll_down: scroll_y_down {
         compatible = "zmk,behavior-mouse-scroll";
-        scroll-y = <-1>;
+        scroll-y = <(-1)>;
     };
 };
 
