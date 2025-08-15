@@ -95,10 +95,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans     &trans  &trans  &trans     &trans          &trans     &trans     &trans     &trans    &trans  &trans
-&trans  &kp ESC    &kp Q   &kp W   &kp E      &kp R           &trans     &trans     &mkp WUP  &trans    &trans  &trans
-&trans  &kp TAB    &kp A   &kp S   &kp D      &kp F           &trans     &mkp MB1   &mkp MB3   &mkp MB2  &trans  &trans
-&trans  &kp LSHFT  &kp N1  &kp N2  &kp N3     &kp NUMBER_4    &trans     &mkp MB4   &mkp WDN  &mkp MB5  &trans  &trans
+&trans  &trans     &trans  &trans  &trans     &trans          &trans     &trans     &trans              &trans    &trans  &trans
+&trans  &kp ESC    &kp Q   &kp W   &kp E      &kp R           &trans     &trans     &mkp_scroll_up      &trans    &trans  &trans
+&trans  &kp TAB    &kp A   &kp S   &kp D      &kp F           &trans     &mkp MB1   &mkp MB3            &mkp MB2  &trans  &trans
+&trans  &kp LSHFT  &kp N1  &kp N2  &kp N3     &kp NUMBER_4    &trans     &mkp MB4   &&mkp_scroll_down   &mkp MB5  &trans  &trans
                            &kp C   &kp SPACE  &mkp RCLK       &mkp RCLK  &mkp LCLK
                                    &trans     &trans          &trans
             >;
