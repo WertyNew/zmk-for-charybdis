@@ -78,7 +78,7 @@
 &trans  &trans        &trans        &trans        &trans     &trans        &trans      &trans     &trans        &trans        &trans        &trans
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR  &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &trans
 &trans  &none         &none         &mkp MCLK     &none      &none         &none       &none      &mkp MCLK     &none         &none         &trans
-&trans  &none         &mkp RCLK     &to 4         &mkp LCLK  &mo 5         &mo 5       &mkp LCLK  &mo 4         &mkp RCLK     &trans        &trans
+&trans  &none         &mkp RCLK     &to 4         &mkp LCLK  &mo 5         &mo 4       &mkp LCLK  &mo 4         &mkp RCLK     &trans        &trans
                                     &mo 5         &mkp LCLK  &mkp RCLK     &mkp RCLK   &mkp LCLK
                                                   &trans     &trans        &trans
             >;
