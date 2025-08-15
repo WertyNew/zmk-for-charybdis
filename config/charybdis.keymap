@@ -14,10 +14,17 @@
             scroll-speed = <20>;
         };
 
-        behavior_trackball_scroll: tmv_scroll {
-            compatible = "zmk,behavior-trackball-scroll";
-            scroll-speed = <30>;
-        };
+         mkp_scroll: scroll_y {
+        compatible = "zmk,behavior-mouse-scroll";
+        scroll-y = <1>; // 1 — шаг скролла (можно увеличить/уменьшить)
+    };
+    mkp_scroll_up: scroll_y_up {
+        compatible = "zmk,behavior-mouse-scroll";
+        scroll-y = <1>;
+    };
+    mkp_scroll_down: scroll_y_down {
+        compatible = "zmk,behavior-mouse-scroll";
+        scroll-y = <-1>;
     };
 };
 
