@@ -13,6 +13,11 @@
             compatible = "zmk,behavior-trackball-scroll";
             scroll-speed = <20>;
         };
+
+        behavior_trackball_scroll: tmv_scroll {
+            compatible = "zmk,behavior-trackball-scroll";
+            scroll-speed = <30>;
+        };
     };
 };
 
