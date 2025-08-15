@@ -27,7 +27,7 @@
         scroll-y = <(-1)>;
     };
 };
-&lt3 {
+&l3 {
     tapping-term-ms = <200>;
     flavor = "balanced";
     quick-tap-ms = <150>;
